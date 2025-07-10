@@ -19,7 +19,7 @@ body {
   background-size: cover;
   color: #1f1f1f;
   width:auto;
-    height: 100vh;
+   
 }
 
 
@@ -30,7 +30,7 @@ header {
 
 
 .logo {
-  font-size: 24px;
+  font-size: 34px;
   font-family: 'Inter', sans-serif;
   color: #4E47FF;
   font-weight: bold;
@@ -53,11 +53,11 @@ header {
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  
 }
 
 .btn:hover {
-  background-color: #aba227;
+  background-color: #d2c049;
 }
 
 
@@ -68,7 +68,7 @@ header {
 }
 
 .hero-section h1 {
-  font-size: 60px;
+  font-size: 65px;
   font-weight: bold;
   line-height: 1.4;
 }
@@ -85,7 +85,7 @@ header {
 }
 /* Footer Styles */
 .footer {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   padding: 60px 20px;
 }
 
@@ -150,7 +150,7 @@ header {
 }
 
 .text-section h2 {
-  font-size: 32px;
+  font-size: 42px;
   font-family: 'Raleway', sans-serif;
   color: #1a1a1a;
   margin-bottom: 10px;
@@ -160,6 +160,7 @@ header {
   color: #88889a;
   line-height: 1.6;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
 
@@ -168,4 +169,54 @@ header {
   width: 300px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.puser-section {
+  background-color: #e9e9ff; 
+  border-radius: 20px;
+  padding: 60px 40px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 80px auto;
+}
+
+.puser-section h5 {
+  font-size: 38px;
+  font-family: 'Raleway', sans-serif;
+  color: #1a1a1a;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.puser-stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.puser-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.puser-stats li strong {
+  font-size: 80px;
+  color: #4E47FF;
+  font-weight: 800;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.puser-stats li span {
+  font-size: 14px;
+  color: #88889a;
+}
+.puser-wrapper {
+  background-color: #ffffff; 
+  padding: 80px 0;           
 }
