@@ -8,7 +8,8 @@ nav {
 
 body {
    font-family: 'Raleway', sans-serif;
-  background: url("assets/Hero-bg.png") no-repeat center center fixed;
+   background: url("assets/Hero-bg.png") no-repeat center center fixed;
+  
   background-size: cover;
   color: #1f1f1f;
 }
@@ -51,14 +52,15 @@ header {
   background-color: #aba227;
 }
 
-/* Hero Section */
+
 .hero-section {
   text-align: center;
   margin-top: 100px;
+  
 }
 
 .hero-section h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: bold;
   line-height: 1.4;
 }
@@ -72,4 +74,51 @@ header {
   margin-top: 30px;
   display: inline-block;
   
+}
+/* Footer Styles */
+.footer {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4E47FF;
+  font-family: 'Inter', sans-serif;
+  margin: 0 auto 20px auto;
+  width: fit-content;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #88889a;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #88889a;
+  font-weight: 500;
+}
+
+.footer-nav li a:hover {
+  color: #ac962a;
 }
